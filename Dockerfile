@@ -41,7 +41,7 @@ RUN cd $HOME/work;\
                 plotly \
                 ipywidgets \
                 nbconvert==5.4.0 \
-                psutil \
+                psutil; \
     git clone --single-branch -b master https://github.com/mathieuboudreau/orca-plotly-dockerfile.git;\
     cd notebooks;\
     chmod -R 777 $HOME/work/orca-plotly-dockerfile;
