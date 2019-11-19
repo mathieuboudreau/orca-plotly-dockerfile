@@ -30,6 +30,7 @@ RUN apt-get update && \
         xvfb \
         libxss1 \
         libopenblas-base \
+        xauth \
         python3-dev && \
     apt-get clean && \
     apt-get autoremove && \
